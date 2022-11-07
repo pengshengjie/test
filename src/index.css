@@ -1,0 +1,64 @@
+a {
+    color: #1890ff !important;
+    text-decoration: none;
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+    transition: color 0.3s;
+    -webkit-text-decoration-skip: objects;
+}
+
+.ant-divider-horizontal {
+    margin: 8px 0 !important
+}
+
+/*.rebalancer-editor .ant-table-content {*/
+/*    width: 1000px;*/
+/*    overflow-x: scroll;*/
+/*    margin-bottom: 10px;*/
+/*}*/
+
+/*.rebalancer-editor .ant-table-content table td:first-child, .rebalancer-editor th:first-child {*/
+/*    position: sticky;*/
+/*    left: 0;*/
+/*    !*background-color: #ddd;*!*/
+/*    z-index:999;*/
+/*}*/
+
+.Row1Col1 th.ant-table-cell {
+    display: none;
+}
+
+.Row1Col1 .ant-table table {
+    table-layout: fixed !important;
+}
+
+.card_height {
+    min-height: 230px;
+}
+
+.ProgressBar {
+    background-color: #F6F6F6
+}
+
+
+@media (min-width: 1200px) {
+    .row_card {
+        max-width: 14.2% !important
+    }
+}
+
+.word-wrap {
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    max-width: 400px;
+    padding-right: 1rem;
+}
+
+.clickable_card:hover {
+    cursor: pointer;
+    box-shadow: 2px 14px 80px rgb(34 35 58 / 20%);
+}
